@@ -12,9 +12,11 @@ void printboard(int p1, int p2){
             int pos = u*10+o;
             if (pos == p1) {
                 printf("P1 ");
-            } else if (pos == p2) {
+            } 
+            else if (pos == p2) {
                 printf("P2 ");
-            } else{
+            } 
+            else{
                 if (u<1){
                     printf("%d  ",pos);
                 } else {
@@ -24,7 +26,6 @@ void printboard(int p1, int p2){
         }
         printf("\n");
     }
-
 }
 
 int main(void){
